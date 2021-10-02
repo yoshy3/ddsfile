@@ -33,7 +33,7 @@ pub struct Header {
     size: u32,
 
     // Flags indicating which members contain valid data
-    flags: HeaderFlags,
+    pub flags: HeaderFlags,
 
     /// Surface height (in pixels)
     pub height: u32,
